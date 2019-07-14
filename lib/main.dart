@@ -26,11 +26,21 @@ class MyApp extends StatelessWidget {
                   'Abhirup Deb',
                    textAlign: TextAlign.center,
                    style: TextStyle(
+                     fontFamily: 'Pacifico',
                      color: Colors.white,
                      fontSize: 20.0,
                      fontWeight: FontWeight.bold,
                      fontStyle: FontStyle.italic,
                    ),
+                ),
+                Text(
+                  'DEVELOPER',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 15.0,
+                    fontFamily: 'PTSans',
+                    color: Colors.tealAccent,
+                  ),
                 ),
                 SizedBox(
                   height: 20.0,
