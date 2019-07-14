@@ -15,11 +15,20 @@ class MyApp extends StatelessWidget {
                 SizedBox(
                   height: 20.0,
                 ),
-                Container(
-                  width: 150.0,
-                  height: 150.0,
-                  color: Colors.amberAccent,
-                  margin: EdgeInsets.only(left: 100.0),
+                Center(
+                  child:
+                    CircleAvatar(
+                      radius: 60.0,
+                      backgroundImage: AssetImage('images/abhi.jpg'),
+                    ),
+                ),
+                Text(
+                  'Abhirup Deb',
+                   textAlign: TextAlign.center,
+                   style: TextStyle(
+                     color: Colors.white,
+                     fontSize: 20.0,
+                   ),
                 ),
                 SizedBox(
                   height: 20.0,
@@ -28,7 +37,7 @@ class MyApp extends StatelessWidget {
                   width: 150.0,
                   height: 150.0,
                   color: Colors.redAccent,
-                  margin: EdgeInsets.only(left: 100.0),
+
                 ),
                 SizedBox(
                   height: 20.0,
@@ -37,7 +46,7 @@ class MyApp extends StatelessWidget {
                   width: 150.0,
                   height: 150.0,
                   color: Colors.lightBlueAccent,
-                  margin: EdgeInsets.only(left: 100.0),
+
                 )
               ],
             )
