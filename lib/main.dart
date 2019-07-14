@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
             child: Column(
               children: <Widget>[
                 SizedBox(
-                  height: 20.0,
+                  height: 120.0,
                 ),
                 Center(
                   child:
@@ -45,6 +45,10 @@ class MyApp extends StatelessWidget {
                 ),
                 SizedBox(
                   height: 20.0,
+                    width: 250.0,
+                    child: Divider(
+                      color: Colors.teal.shade900,
+                    )
                 ),
                 Container(
                   child: Row(
@@ -70,13 +74,30 @@ class MyApp extends StatelessWidget {
                 ),
                 SizedBox(
                   height: 20.0,
+
                 ),
                 Container(
-                  width: 150.0,
-                  height: 150.0,
-                  color: Colors.lightBlueAccent,
+                  child: Row(
+                    children: <Widget>[
+                      Icon(
+                        Icons.email,
+                        color: Colors.teal,
+                      ),
+                      Text(
+                        'debabhirup1999@gmail.com',
+                        style: TextStyle(
+                          color: Colors.teal,
+                          fontFamily: 'PTSans',
+                          fontSize: 12.0,
+                        ),
+                      ),
+                    ],
+                  ),
+                  width: 200.0,
+                  height: 50.0,
+                  color: Colors.white,
 
-                )
+                ),
               ],
             )
           ),
