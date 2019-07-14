@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
                    style: TextStyle(
                      color: Colors.white,
                      fontSize: 20.0,
+                     fontWeight: FontWeight.bold,
                    ),
                 ),
                 SizedBox(
