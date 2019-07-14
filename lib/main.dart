@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() {
   runApp(MyApp());
@@ -46,9 +47,25 @@ class MyApp extends StatelessWidget {
                   height: 20.0,
                 ),
                 Container(
-                  width: 150.0,
-                  height: 150.0,
-                  color: Colors.redAccent,
+                  child: Row(
+                    children: <Widget>[
+                      Icon(
+                        Icons.phone,
+                        color: Colors.teal,
+                      ),
+                      Text(
+                        '+91 9002342503',
+                        style: TextStyle(
+                        color: Colors.teal,
+                        fontFamily: 'PTSans',
+                        fontSize: 20.0,
+                        ),
+                      ),
+                    ],
+                  ),
+                  width: 200.0,
+                  height: 50.0,
+                  color: Colors.white,
 
                 ),
                 SizedBox(
